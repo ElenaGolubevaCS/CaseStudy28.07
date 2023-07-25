@@ -1,1 +1,115 @@
+h2 {
+  font-family: 'Calibri', Courier, monospace;
+}
 
+/* New. Prüfungseinsicht Übersicht */
+h1 {
+  font-family: 'Calibri';
+  color: rgb(23, 2, 2);
+}
+
+.todo {
+  color: rgb(233, 81, 21);
+
+}
+
+.abschnitte {
+  font-family: 'Calibri', Courier, monospace, Times, serif;
+
+}
+
+.externer_links:hover {
+  top: -5px;
+  right: 105%;
+  color: rgb(214, 26, 26);
+}
+
+.externer_links {
+  color: rgb(12, 112, 25);
+}
+
+.form-check .form-check-input {
+  float: left;
+}
+
+.list-group {
+  width: 400px;
+}
+
+/* nur eine Farbe für ON und OFF */
+.form-check-input[type="checkbox"] {
+  background-color: #f9f9fa;
+  /* Beispiel für die Farbe Blau */
+}
+
+/* Default-Farben für den Switch */
+.form-check-input[type="checkbox"] {
+  background-color: #ccc;
+  /* Grau als Standard-Hintergrundfarbe für den Switch */
+}
+
+
+
+/* Farben für den Switch, wenn er eingeschaltet ist (on) */
+.form-check-input[type="checkbox"]:checked {
+  background-color: #197a31;
+  /* Blau als Hintergrundfarbe, wenn der Switch eingeschaltet ist */
+}
+
+/* Farben für den Switch, wenn er ausgeschaltet ist (off) */
+.form-check-input[type="checkbox"]:not(:checked) {
+  background-color: #ffffff;
+  /*  wenn der Switch ausgeschaltet ist */
+}
+
+
+/* Stil für den "Speichern"-Button (ohne Bootstrap) */
+button.save-button {
+  background-color: blue;
+  color: white;
+}
+
+
+/*
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+/* Tooltip text 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+*/
+
+
+/* new. Navigation Farbe */
+.navbar-toggler {
+  background-color: #ebeff1;
+}
+
+
+/* new. Hintergrundfarbe Farbe und Abstand */
+#footer {
+  background-color: #e1f5df;
+  padding: 26px;
+  /* Abstand zwischen Inhalt und Rahmen zu steuern */
+}
+
+.bewegung {
+  transition: transform 4s ease-in-out;
+}
